@@ -1,0 +1,376 @@
+/* ====================================================================================================================
+                                                        Welcome Widget 
+=================================================================================================================== */
+.at-welcome_item{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+/*     margin-bottom: 20px; */
+    box-shadow: 2px 3px 60px 0 rgba(169, 232, 255, 0.5);
+    overflow: hidden;
+}
+.at-welcome_icon{
+    float: left;
+    width: 15%;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(249 75 82 / 70%);
+    padding: 10px 0;
+    margin: 5px;
+    border: 1px solid #fef2ff;
+    background-image: linear-gradient(to right, #fef2ff , #efd9ff);
+    border-radius: 50%;
+}
+
+.at-welcome_icon:hover {
+	animation-play-state: paused;
+}
+.at-welcome_item_inner{
+    width: 80%;
+    float: right;
+}
+.at-welcome_item_inner h2{
+    font-size: 22px;
+}
+.at-welcome_item_inner p{
+    font-size: 16px;
+    text-align: justify;
+    color: #666;
+}
+
+
+
+
+/* ====================================================================================================================
+                                                        Special Text Widget 
+=================================================================================================================== */
+.at-special_under{
+    font-size: 100px;
+    color: rgba(129, 173, 234, 0.2);
+    letter-spacing: 10px;
+    text-align: center;
+}
+.at-special_upper{
+    margin-top: -60px;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+
+
+/* ====================================================================================================================
+                                                        Process Widget 
+=================================================================================================================== */
+.at-process_item{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 5px rgba(91, 134, 149, 0.393);
+    display: inline-block;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+.at-process_item:first-child{
+    margin-left: 0;
+}
+.at-process_item:nth-child(4){
+    margin-left: 0;
+}
+.at-process_row_rmv{
+    visibility: hidden;
+    display: none;
+}
+.at-process_item_inner{
+    padding: 20px;
+    text-align: center;
+}
+.at-process_icon{
+    font-size: 40px;
+    color: #eafaff;
+    border: 1px solid #eb76fe;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right,#eb76fe, #c478fa);
+    
+    transition: 0.5s;
+}
+.at-process_item:hover .at-process_icon{
+    color: #72c7e0;
+    background-image: linear-gradient(to left,#eb76fe, #c478fa);
+    border: 1px solid #ac8c75;
+
+}
+.at-process_item_inner h2{
+    color: #000000;
+    padding-bottom: 10px;
+}
+.at-process_item_inner p{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+
+/* ====================================================================================================================
+                                                        Portfolio Widget 
+=================================================================================================================== */
+
+.at-portfolio_row_home{
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.at-portfolio_item_parent{
+    padding: 1rem;
+    width: 25%;
+
+}
+.at-portfolio_item_home{
+    box-shadow: 20px 30px 60px 5px rgba(129, 173, 234, 0.2);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+.at-portfolio_item_home img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition:all 0.3s ease;
+}
+.at-portfolio_item_home p{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    bottom: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(2rem);
+    visibility: hidden;
+    opacity: 0;
+    transition:all 0.3s ease;
+}
+
+
+
+.at-portfolio_item_home:hover  img{
+    transform: scale(1.2);
+    border-radius: 0;
+    
+}
+
+.at-portfolio_item_home:hover p{
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ====================================================================================================================
+                                                        Service Widget 
+=================================================================================================================== */
+.at-services{
+    display: flex;
+}
+.at-service_parent{
+    width: 50%;
+    padding: 1rem;
+}
+.at-service_item{
+    background-color: #fff;
+    padding: 0.7rem;
+    box-shadow: 0 0 40px 5px rgba(91, 134, 149, 0.393);
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+.at-service_item a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+.at-service_item_left{
+    width: 10%;
+    font-size: 1.5rem;
+    background-image: linear-gradient( to right, #ff7c76, #fba977);
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fba977;
+    padding: 1rem 0;
+    transition: all  0.3s ease;
+}
+.at-service_item:hover .at-service_item_left{
+    background-image: linear-gradient( to left, #ff7c76, #fba977);
+    color: purple;
+
+}
+.at-service_item_right{
+    text-align: left;
+    width: 85%;
+}
+.at-service_item_right h3{
+    font-weight: normal;
+}
+
+.at-service_number{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #ddd;
+}
+
+
+
+
+/* ====================================================================================================================
+                                                        About Widget 
+=================================================================================================================== */
+.at-about{
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 100px 20px #ddd;
+    overflow: hidden;
+}
+.at-about_top{
+    background-color: #ee2d33;
+    position: relative;
+    height: 200px;
+}
+.at-about_left{
+    display: inline-block;
+}
+.at-about_left img{
+    width: 200px;
+    position: absolute;
+    bottom: -45px;
+    left: 30px;
+    border: 1px solid #ddd;
+}
+.at-about_right{
+    text-align: center;
+    width: 60%;
+    color: #fff;
+    float: right;
+}
+.at-about_right h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.at-about_right h2{
+    font-size: 18px;
+}
+
+/* Social Icon */
+.at-social_icon{
+    margin-top: 20px;
+}
+.at-social_icon a{
+    color: #000;
+    text-decoration: none;
+}
+.at-social_icon i{
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+.at-social_icon .fa-facebook-f:hover{
+    background-color: #389cf1;
+    color: #fff;
+}
+.at-social_icon .fa-instagram:hover{
+    background-color: #fe017a;
+    color: #fff;
+}
+.at-social_icon .fa-twitter:hover{
+    color: #1da1f2;
+}
+.at-social_icon .fa-linkedin-in:hover{
+    background-color: #0b66c2;
+    color: #fff;
+}
+.at-social_icon .fa-whatsapp:hover{
+    background-color: #27c34b;
+    color: #fff;
+}
+
+
+.at-about_bottom_left{
+    padding: 4%;
+    width: 50%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.at-about_bottom_left h2{
+    font-size: 25px;
+}
+.at-about_bottom_left p{
+    font-size: 16px;
+    text-align: justify;
+}
+.at-about_bottom_right{
+    width: 49%;
+    padding: 3%;
+    float: right;
+    margin-top: 40px;
+}
+.at-about_bottom_right td{
+    width: 135px;
+    height: 22px;
+}
+.at-about_bottom_right table{
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* ================================================= Skill Part===================================== */
+.at-skills{
+    width: 100%;
+    padding: 5%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 100px 20px #ddd;
+    overflow: hidden;
+}
+
+
+.at-skill{
+    margin-top: 20px;
+}
+.at-skill_inner{
+    width: 33%;
+    float: left;
+}
+.at-skill_inner h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.at-skill ul{
+    list-style: none;
+}
+.at-skill ul li{
+    font-size: 16px;
+    line-height: 22px;
+}
+.at-skill ul li i{
+    margin-right: 8px;
+}

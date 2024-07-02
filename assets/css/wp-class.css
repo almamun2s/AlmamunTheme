@@ -1,0 +1,30 @@
+/**
+* ====================== These are WP Class ========================
+**/
+.current-menu-item{
+    background-color: #ef343a85;
+}
+
+.wp_pagenav{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.wp_pagenav span{
+    display: inline-block;
+    padding: 0.5rem;
+}
+.wp_pagenav a{
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.pages{
+    background-color: #fbf3ff;
+    padding: 0.5rem;
+}
+.page-numbers{
+    color: #ec1d26;
+}
+.current, .dots{
+    color: #000;
+}

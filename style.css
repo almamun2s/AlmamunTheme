@@ -1,0 +1,112 @@
+/* 
+Theme Name: Almamun Theme
+Theme URI: https://almamun.life/theme/
+Author: Abdullah Almamun
+Author URI: https://almamun.life/
+Description: I am Md Abdullah Al Mamun. I developed this theme for my personal portfolio website. And this theme is also a portfolio item.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: almamun-theme
+Tested up to: 6.2.2
+Requires PHP: 5
+
+*/
+
+/* Theme General Styles */
+/* Reset Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+
+/* ============================================================
+                        Theme Default CSS
+==============================================================*/
+/* Single Portfolio */
+.at-portfolio_details{
+    padding: 1rem 0;
+}
+.at-portfolio_details a{
+    text-decoration: none;
+    color: #00aeef;
+    transition: all 0.3s ease;
+}
+.at-portfolio_details a:hover, .at-portfolio_details a:visited{
+    color: #ec1d26;
+}
+
+
+.at-portfolio_category{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.at-portfolio_category li{
+    display: inline-block;
+    padding: 1rem 0.5rem;
+}
+.at-portfolio_category li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    display: inline-block;
+    background-color: #00aeef;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+.at-portfolio_category li a:hover{
+    background-color: #ec1d26;
+    color: #000;
+}
+
+h2 .at-portfolio_category{
+    display: inline-block;
+}
+/* Your custom style goes here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

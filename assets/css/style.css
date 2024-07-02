@@ -1,0 +1,467 @@
+/* ==================================================================================================================
+                                                Global Css of almamun.life
+====================================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+h2{
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+.at-container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.at-hide{
+    display: none!important;
+}
+
+:root{
+    --logo_up: #00aeef;
+    --logo_down: #ee2d33;
+    --contact_color: #e47175;
+    --contact_border: #7abad1;
+    --contact_animate: var(--logo_up) ;
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--contact_border);
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--logo_down);
+    border: 1px solid var(--contact_border);
+    border-radius: 5px;
+}
+
+.at-button{
+    background-color: #49405c;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #49405c;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.5s;
+    float: right;
+    margin-right: 5px;
+    margin-top: -10px;
+    animation: wiggle 2s linear infinite;
+}
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  .at-button:hover{
+      background-color: #fff;
+      color: #49405c;
+    }
+    @media (max-width:1210px) {
+        .button{
+            margin-right: 85px;
+        }
+        
+    }
+
+.at-wiggle2{
+    animation: wiggle2 2s linear infinite;
+}
+.at-wiggle3{
+    animation: wiggle3 2s linear infinite;
+}
+    @keyframes wiggle2 {
+      0%, 7% {
+        transform: translate(0);
+      }
+      15% {
+        transform: translate(-15px);
+      }
+      20% {
+        transform: translate(10px);
+      }
+      25% {
+        transform: translate(-10px);
+      }
+      30% {
+        transform: translate(6px);
+      }
+      35% {
+        transform: translate(-4px);
+      }
+      40%, 100% {
+        transform: translate(0);
+      }
+    }
+    @keyframes wiggle3 {
+      0%, 7% {
+        transform: translateY(0);
+      }
+      15% {
+        transform: translateY(-15px);
+      }
+      20% {
+        transform: translateY(10px);
+      }
+      25% {
+        transform: translateY(-10px);
+      }
+      30% {
+        transform: translateY(6px);
+      }
+      35% {
+        transform: translateY(-4px);
+      }
+      40%, 100% {
+        transform: translateY(0);
+      }
+    }
+
+/* ==================================================================================================================
+                                                Header Part
+====================================================================================================================*/
+header{
+    width: 100%;
+    background-image: linear-gradient( to right, #ffe6d9, #fbf3ff);
+    overflow: hidden;
+    z-index: -2;
+}
+.at-logo{
+    float: left;
+    width: 30%;
+}
+.at-logo img{
+    max-width: 150px;
+    padding: 5px 0;
+}
+/* ================================================= Menu Starts Here=============================== */
+.at-menu{
+    float: right;
+    font-size: 18px;
+}
+.at-main_menu ul{
+    list-style: none;
+    display: flex;
+    padding-top: 7px;
+}
+.at-main_menu ul li{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+.at-main_menu ul li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+.at-main_menu ul li:hover a{
+    color: #00aeef;
+}
+.at-mobile_menu_icon{
+    text-align: right;
+    padding-top: 15px;
+    display: none;
+}
+
+
+
+/* ==================================================================================================================
+                                                Footer Part
+====================================================================================================================*/
+footer{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 25px 0 ;
+}
+footer h4{
+    font-size: 16px;
+    text-align: center;
+}
+
+/* ============================================ Footer Top Part ===================================================== */
+.at-footer{
+    background-image: linear-gradient( to right, rgb(84, 19, 171), rgb(121, 77, 178));
+    /* background-color: rgb(84, 19, 171); */
+
+    padding: 35px 0;
+}
+
+.at-footer_top{
+    overflow: hidden;
+}
+
+.at-footer_left{
+    float: left;
+    width: 50%;
+}
+.at-footer_left h2{
+    font-size: 30px;
+    color: #fff;
+}
+.at-footer_left p{
+    font-size: 16px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.at-footer_right{
+    float: right;
+    width: 33%;
+}
+
+/* ============================================== This is the awesome button ==================== */
+.at-footer_right button{
+    margin-top: 35px ;
+    padding: 10px 0;
+    font-size: 16px;
+    background-image: linear-gradient( to right, #ff7d73, #fbaa75);
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    width: 200px;
+    transition: all 0.3s ease;
+    cursor: pointer ;
+}
+.at-footer_right button:hover{
+    background-image: linear-gradient( to left, #ff7d73, #fbaa75);
+    color: #fff;
+    animation: wiggle2 2s linear;
+
+}
+
+/* ========================================================== Popup Part============================================= */
+.at-popup_contact{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+
+    transform: translate(300px,350px) scale(0.1);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.at-popup_contact_show{
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0 , 0) scale(1);
+}
+.at-popup_inner{
+    width: 500px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 30vh;
+    padding: 30px 0;
+    box-shadow: 5px 5px 100px 20px var(--contact_color);
+    border-radius: 10px;
+    position: relative;
+}
+.at-xmark{
+    font-size: 30px;
+    position: absolute;
+    top: -5px;
+    right: -25px;
+    color: #000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.at-xmark:hover{
+    color: var(--logo_down);
+}
+.at-popup_inner h2{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+.at-contact_form{
+    background-color: var(--contact_color);
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px 0;
+
+}
+.at-input{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+}
+.at-input input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding-top: 15px;
+    background-color: var(--contact_color);
+    color: #fff;
+}
+.at-input label{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid var(--contact_border);
+    overflow: hidden;
+    text-align: left;
+}
+.at-input label::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid var(--contact_animate);
+    transform: translateX(-100%);
+    transition: all 0.4s ease;
+
+}
+.at-input label span{
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    font-size: 20px;
+    transition: all 0.4s ease;
+}
+.at-input input:focus + label span, .at-input input:valid + label span{
+    transform: translateY(-140%);
+    font-size: 14px;
+    color: var(--contact_animate);
+}
+.at-input input:focus + label::after, .at-input input:valid + label::after{
+    transform: none;
+}
+
+
+.at-textarea{
+    position: relative;
+    width: 300px;
+    margin: auto;
+    height: 80px;
+}
+.at-textarea textarea{
+    max-width: 100%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding-top: 15px;
+    background-color: var(--contact_color);
+    color: #fff;
+    resize: none;
+}
+.at-textarea label{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid var(--contact_border);
+    overflow: hidden;
+    text-align: left;
+}
+.at-textarea label span{
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    font-size: 20px;
+    transition: all 0.4s ease;
+}
+.at-textarea label::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid var(--contact_animate);
+    transform: translateX(-100%);
+    transition: all 0.4s ease;
+}
+.at-textarea textarea:focus + label span, .at-textarea textarea:valid + label span{
+    transform: translateY(-300%);
+    font-size: 14px;
+    color: var(--contact_animate);
+}
+.at-textarea textarea:focus + label::after, .at-textarea textarea:valid + label::after{
+    transform: none;
+}
+
+input[type="submit"]{
+    background-color: var(--logo_down);
+    color: #fff;
+    padding: 0;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #fff;
+    color: var(--logo_down);
+    padding: 0;
+    margin-top: 5px;
+}
+
+.at-sending_data{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* ==================================================================================================================
+                                                404 Part
+====================================================================================================================*/
+.at-part404{
+    background-color: #fef5f0;
+    text-align: center;
+}
+.at-part404 h1{
+    font-size: 100px;
+    padding-top: 50px;
+    color: var(--logo_down);
+}
+.at-part404 h2{
+    font-size: 30px;
+}
+.at-part404 h3{
+    padding-bottom: 100px;
+    
+}

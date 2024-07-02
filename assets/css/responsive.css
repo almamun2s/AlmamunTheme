@@ -1,0 +1,262 @@
+/* Device width 1100px and Upper */
+/* Device width Lower than 1100px */
+@media (max-width:1100px) {
+    .at-container{
+        width: 950px;
+    }
+    /* .at-portfolio_item_home{
+        width: 31%;
+    } */
+}
+
+
+/*============================================= Device width Lower than 1000px ==========================================*/
+@media (max-width:1000px) {
+    .at-container{
+        width: 850px;
+    }
+}
+
+
+/* Device width Lower than 900px */
+@media (max-width:900px) {
+    .at-container{
+        width: 750px;
+    }
+    .at-banner_description h2{
+        font-size: 24px;
+    }
+    .at-banner_description h1{
+        font-size: 38px;
+    }
+    .at-banner_description p, .welcome_description p{
+        font-size: 17px;
+    }
+    .at-welcome_icon{
+        font-size: 35px;
+    }
+}
+
+
+
+/*============================================= Device width Lower than 850px ==========================================*/
+@media (max-width:850px) {
+    .at-process_item{
+        /* width: 48%; */
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .at-process_item:nth-child(3), .at-process_item:nth-child(5){
+        margin-left: 0;
+    }
+    .at-process_item:nth-child(4){
+        margin-left: 10px;
+    }
+}
+
+
+
+
+/*============================================= Device width Lower than 800px ==========================================*/
+@media (max-width:800px) {
+    .at-container{
+        width: 675px;
+    }
+    .at-banner_description h2{
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    .at-banner_description h1{
+        font-size: 34px;
+    }
+    .at-banner_description p,.welcome_description p{
+        font-size: 16px;
+    }
+    .at-welcome_description h2{
+        font-size: 30px;
+    }
+    .at-welcome_icon{
+        font-size: 30px;
+    }
+    .at-service_item_left{
+        font-size: 22px;
+    }
+}
+
+
+
+/*============================================= Device width Lower than 700px ==========================================*/
+@media (max-width:700px) {
+    .at-container{
+        width: 575px;
+    }
+    .at-banner_description{
+        width: 100%;
+    }
+    .at-banner_image{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .at-welcome_description{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .at-welcome_items{
+        width: 100%;
+    }
+
+    .at-special_under{
+        font-size: 75px;
+    }
+    .at-special_upper{
+        margin-top: -45px;
+        margin-bottom: 30px;
+        font-size: x-large;
+    }
+    .at-process_item{
+        /* width: 96%; */
+        margin-bottom: 5px;
+        margin-left: 0px;
+    }
+    .at-process_item:nth-child(4){
+        margin-left: 0px;
+    }
+    .at-service_item{
+        width: 100%;
+        margin: 1% 0;
+    }
+	.at-service_parent{
+		width:100%;
+	}
+    .at-portfolio_item_parent{
+        width: 33.33%;
+    }
+    .at-footer_left{
+        width: 100%;
+    }
+    .at-footer_right{
+        width: 100%;
+        text-align: center;
+    }
+    /* About Page Topper  */
+    .at-about_top{
+        height: auto;
+    }
+    .at-about_left{
+        text-align: center;
+        width: 100%;
+    }
+    .at-about_left img{
+        position: static;
+        margin-top: 15px;
+        border-radius: 15%;
+    }
+    .at-about_right{
+        float: none;
+        width: 100%;
+    }
+    .at-about_right h1{
+        margin-top: 0;
+    }
+    .at-social_icon{
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+    /* About Page Bottom Part */
+    .at-about_bottom_left{
+        margin-top: 0;
+        width: 100%;
+    }
+    .at-about_bottom_left p{
+        font-size: 15px;
+    }
+    .at-about_bottom_left h2{
+        text-align: center;
+    }
+    .at-about_bottom_right{
+        width: 75%;
+        padding: 4% 0;
+        margin-top: 0;
+    }
+    .at-about_bottom_right table{
+        font-size: 15px;
+    }
+
+    .at-skill_inner{
+        width: 50%;
+    }
+    .at-skill_inner:last-child{
+        width: 100%;
+    }
+}
+
+
+/*============================================= Device width Lower than 650px ==========================================*/
+@media (max-width:650px) {
+    .at-mobile_menu_icon{
+        display: block;
+    }
+    .at-main_menu{
+        display: none;
+    }
+    .at-main_menu ul{
+        flex-direction: column;
+    }
+    .at-hide{
+        display: none;
+    }
+    .at-xmark{
+        right: 5px;
+        top: 5px;
+    }
+}
+
+
+
+/*============================================= Device width Lower than 600px ==========================================*/
+@media (max-width:600px) {
+    .at-container{
+        width: 90%;
+    }
+    .at-popup_inner{
+        width: 450px;
+    }
+    .at-portfolio_item_parent{
+        width: 50%;
+    }
+}
+
+
+/*============================================= Device width Lower than 500px ==========================================*/
+@media (max-width:500px) {
+    .at-popup_inner{
+        width: auto;
+    }
+    .at-about_bottom_right{
+        width: 80%;
+    }
+}
+/*============================================= Device width Lower than 400px ==========================================*/
+@media (max-width:400px) {
+    .at-portfolio_item_parent{
+        width: 100%;
+    }
+    
+    /* About Page */
+    .at-about_right h1{
+        font-size: 35px;
+    }
+    .at-about_bottom_right{
+        width: 90%;
+    }
+    .at-skill_inner{
+        width: 100%;
+    }
+    .at-input, .textarea{
+        width: 275px;
+    }
+    .at-special_under{
+        font-size: 65px;
+        letter-spacing: 0;
+    }
+}

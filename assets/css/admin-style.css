@@ -1,0 +1,82 @@
+/* =================================================================================================
+                                        Common CSS are here
+================================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font-family: 'Itim', cursive;
+}
+/* p{
+    font-size: 1rem;
+} */
+
+h2{
+    font-size: 24px;
+}
+.theme-browser .theme .theme-name{
+    height: inherit!important;
+}
+.at-admin-hide{
+    display: none;
+}
+
+/* ======================== SMS page CSS ========================== */
+.at-admin-sms{
+    margin-top: 15vh;
+}
+.at-admin-sms-parent{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 95%;
+    max-width: 1024px;
+    padding: 0 2rem;
+    border-bottom: 1px solid #9f9393;
+    border-radius: 6px;
+    background: white;
+    transition: all 0.5s ease;
+}
+.at-admin-sms-visible{
+    display: flex;
+}
+.at-admin-sms-id{
+    width: 20%;
+}
+.at-admin-sms-name{
+    width: 60%;
+}
+.at-admin-sms-time{
+    width: 20%;
+}
+
+
+
+/* This is as like as FAQ */
+.at-admin-sms-invisible{ 
+    display: none; 
+    padding: 1.25rem 0.7rem;
+    color: rgba(0,0,0,0.6);
+}
+
+.at-admin-sms-parent.at-open:hover {
+    background: white;
+}
+
+.at-admin-sms-parent h4 {
+    border-radius: 6px;
+    margin: 0px;
+    padding: 0.6rem;
+    color: black;
+    font-weight: 600;
+    font-size: 1.25rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.at-admin-sms-parent h4.at-open {
+    border-radius: 6px;
+    margin: 0px;
+    cursor: pointer;
+}

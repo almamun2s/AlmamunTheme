@@ -1,0 +1,82 @@
+/* 
+.loginform{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #239342;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.form h3{
+    text-align: center;
+
+}
+.form form{
+    text-align: center;
+    margin-top: 5px;
+}
+form h5, h6{
+    display: inline-block;
+}
+.inputbtn{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #239342;
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+// Show or Hide Password
+.checkfather{
+    text-align: right;
+    margin-top: -23px;
+    margin-right: 45px;
+
+}
+.check{
+    display: inline-block;
+    background: #239342;
+    border: 1px solid #239342;
+    border-radius: 10px;
+    padding: 2px;
+    transition: 0.5s;
+}
+.check:hover{
+    background-color: #fff;
+} */
+
+
+
+.button{
+    display: inline-block;
+    width: 100%;
+    padding: 0.6rem 0;
+    border: 0;
+    outline: none;
+    color: #fff;
+    background-color: #ff105f!important;
+    cursor: pointer;
+    transition: all 0.3s ease;   
+}
+.button:hover{
+    background-color:#ffad06!important;
+}
+.message{
+    border-left: 4px solid #ff105f!important;
+}
+.input{
+    border: none!important;
+    box-shadow: 0 0 5px rgba(255, 16, 96, 0.5)!important;
+}
+.input:focus{
+    /* outline: #ff105f!important; */
+    border-color: #ff105f!important;
+}
